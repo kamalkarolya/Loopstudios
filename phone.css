@@ -1,0 +1,180 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+}
+/* nav bar  */
+#logo{
+    margin: 27px 13px;
+    align-self: flex-start;
+}
+#navbar{
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+#navbar ul li {
+    font-family: "Josefin Sans";
+    font-size: 2rem;
+}
+
+.hamburger{
+    margin: 27px 13px;
+    display: initial;
+    cursor: pointer;
+    align-self: flex-end;
+    position: absolute;
+}
+.close{
+    margin: 27px 13px;
+     display: none;
+     cursor: pointer;
+    align-self: flex-end;
+    position: absolute; 
+
+}
+#navbar ul{
+    flex-direction: column;
+     display: none; 
+     
+     white-space: break-spaces;
+    
+ }
+
+
+/* home */
+#home{
+   padding-bottom: 254px;
+}
+#home::before{
+    
+    overflow: hidden;
+}
+#home div {
+    margin: 70px 0px;
+    font-size: 2.36rem;
+    padding: 25px;
+}
+
+/* content */
+#content{
+    align-items: center;
+   flex-direction: column;
+   margin: 61px;
+}
+#content div{
+ position: relative;
+ margin: 0px;
+ width: 262px;
+ padding: 32px;
+ text-align: center;
+}
+    
+
+#content img{
+    width: 17rem;
+    height: 240px;
+}
+#content div h1{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+#content div p{
+    font-size: 0.6rem;
+}
+/* gallery */
+
+#gallery{
+    margin: 37px;
+}
+#gallery h1{
+font-size: 1.5rem;
+}
+#gallery div div h2{
+    font-size: 1.25rem;
+    padding: 0px;
+}
+#gallery div ul{
+    padding: 0px;
+}
+.head{
+    padding-bottom: 50px;
+   /* justify-content: space-between; */
+}
+#gallery div div{
+    height: 89px;
+    width: 16rem;
+}
+
+
+  #deepearth {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-deep-earth.jpg) no-repeat center center/cover;
+  }
+  #nightarcade {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-night-arcade.jpg) no-repeat center center/cover;
+  }
+  #soccer {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-soccer-team.jpg) no-repeat center center/cover;
+  }
+  #grid {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-grid.jpg) no-repeat center center/cover;
+  }
+  #imageabove {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-from-above.jpg) no-repeat center center/cover;
+  }
+  #pocket {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-pocket-borealis.jpg) no-repeat center center/cover;
+  }
+  #curiosity {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-curiosity.jpg) no-repeat center center/cover;
+  }
+  #fisheye {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.5)),
+      url(images/mobile/image-fisheye.jpg) no-repeat center center/cover;
+  }
+  
+
+/* footer */
+#footer {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer div{
+    justify-content: center;
+}
+#footer div ul{
+    align-items: center;
+    flex-direction: column;
+}
+#footer div div{
+    flex-direction: row;
+    padding-bottom: 14px;
+    height: 41px;
+}
+#footer div h2{
+
+    padding: 25px 0px;
+}
+.right{
+    align-self: center;
+    padding-left: 0px;
+}
+#footer div ul li{
+    padding-bottom: 14px;
+}
+#footer div p{
+    padding-bottom: 40px;  
+}
