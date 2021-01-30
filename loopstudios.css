@@ -74,7 +74,7 @@
     url(images/desktop/image-hero.jpg) no-repeat center center/cover;
   content: "";
   position: absolute;
-  height: 124%;
+  height: 100%;
   width: 100%;
   top: 0px;
   left: 0px;
