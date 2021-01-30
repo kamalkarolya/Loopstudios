@@ -46,15 +46,11 @@
   display: block;
   padding: 0px 24px;
   text-decoration: none;
-  background-image: linear-gradient(white), transparent;
-  background-size: 0 5px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all  ease-out;
+
 }
-}
+
 #navbar ul li a:hover {
-  background-size: 50% 5px, auto;
+  text-decoration: underline;
 
 }
 /* HOME */
@@ -75,7 +71,7 @@
 }
 #home::before {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(image-hero.jpg) no-repeat center center/cover;
+    url(images/desktop/image-hero.jpg) no-repeat center center/cover;
   content: "";
   position: absolute;
   height: 124%;
@@ -187,35 +183,35 @@
 }
 #deepearth {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-deep-earth.jpg) no-repeat center center/cover;
+    url(images/desktop/image-deep-earth.jpg) no-repeat center center/cover;
 }
 #nightarcade {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-night-arcade.jpg) no-repeat center center/cover;
+    url(images/desktop/image-night-arcade.jpg) no-repeat center center/cover;
 }
 #soccer {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-soccer-team.jpg) no-repeat center center/cover;
+    url(images/desktop/image-soccer-team.jpg) no-repeat center center/cover;
 }
 #grid {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-grid.jpg) no-repeat center center/cover;
+    url(images/desktop/image-grid.jpg) no-repeat center center/cover;
 }
 #imageabove {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-from-above.jpg) no-repeat center center/cover;
+    url(images/desktop/image-from-above.jpg) no-repeat center center/cover;
 }
 #pocket {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-pocket-borealis.jpg) no-repeat center center/cover;
+    url(images/desktop/image-pocket-borealis.jpg) no-repeat center center/cover;
 }
 #curiosity {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-curiosity.jpg) no-repeat center center/cover;
+    url(images/desktop/image-curiosity.jpg) no-repeat center center/cover;
 }
 #fisheye {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(image-fisheye.jpg) no-repeat center center/cover;
+    url(images/desktop/image-fisheye.jpg) no-repeat center center/cover;
 }
 
 /* footer */
@@ -246,6 +242,7 @@
 }
 #footer div ul li a:hover {
   cursor: pointer;
+  text-decoration: underline;
   color: hsl(0, 100%, 82%);
 }
 /*  right foot */
@@ -261,7 +258,4 @@
 
 #footer div p {
   color: hsl(0, 0%, 41%);
-}
-#footer div div p a:hover{
-  text-decoration: underline;
 }
